@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Epic Gamer Zone</title>
+    <title>Sigende titel</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -25,19 +25,8 @@
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
-<style>
-    body{
-        background: url("images/P_T__20200802220221.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-</style>
 <body>
-<a class="nav-link" href="./start.php">
-    Left-click to continue
-</a>
+
 <!-- Her skal sidens indhold ligge -->
 
 </body>
