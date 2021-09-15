@@ -18,6 +18,7 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
@@ -26,6 +27,7 @@
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <style>
+
     body{
         background: url("images/P_T__20200802220221.jpg");
         background-repeat: no-repeat;
@@ -35,10 +37,30 @@
     }
 </style>
 <body>
-<a class="nav-link" href="./start.php">
-    Left-click to continue
-</a>
-<!-- Her skal sidens indhold ligge -->
 
+<div class="bg-transparent">
+    <a href="start.php" class="text-decoration-none">
+
+    <div class="text-muted font-monospace font-weight-bold w-25">
+    <h3>Left-click to continue</h3>
+    </div>
+
+    </a>
+</div>
+
+
+
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<audio autoplay>
+    <source src="creepo.mp3">
+</audio>
+
+<script src="js/script.js">
+    const name = "Joe";
+    let age = 22;
+</script>
 </body>
 </html>

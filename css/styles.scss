@@ -1,10 +1,22 @@
-$red: #F00;
-$blue: #00F;
+$mute2: #F0F0F0;
 
-body{
-  background-color: $red;
+.bg-transparent{
+  padding: 35px;
+  height: 100vh;
 }
-.nav-link{
-  height: 200px;
-  text-decoration-color: #FF0000;
+
+.text-decoration-none{
+  display: block;
+  height: 100%;
+  width: 100%;
 }
+
+.text-muted{
+  width: auto;
+}
+
+.text-muted:hover{
+  transition: all 1.2s ease-in;
+  opacity: 100%;
+}
+
