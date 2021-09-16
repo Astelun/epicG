@@ -24,6 +24,7 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 <style>
 
@@ -38,9 +39,12 @@
 <body>
 <?php include "./includes/header.php";?>
 
-<div class="ms-5 w-25">
+<div id="btns" class="ms-5 w-25">
     <button type="button" class="btn btn-rounded my-5 gradicolor">
         <a href="news.php" class="text-decoration-none text-white-50"><h3>New game</h3></a>
+        <audio id="beep-two" preload="auto">
+            <source src="audio/beep.mp3"></source>
+        </audio>
     </button>
 
     <br>
@@ -60,12 +64,15 @@
     <button type="button" class="btn btn-rounded my-5 gradicolor">
         <a href="fail.html" class="text-decoration-none text-white-50"><h3>Credits</h3></a>
     </button>
+
 </div>
 
 
 
 <audio autoplay loop>
-    <source src="Solas%20Theme.mp3">
+    <source src="audio/Solas%20Theme.mp3">
 </audio>
+
+<script src="js/script.js"></script>
 </body>
 </html>

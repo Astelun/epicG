@@ -23,6 +23,7 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -41,8 +42,11 @@
 <div class="bg-transparent">
     <a href="start.php" class="text-decoration-none">
 
-    <div class="text-muted font-monospace font-weight-bold w-25">
+    <div id="btns" class="text-muted font-monospace font-weight-bold w-25">
     <h3>Left-click to continue</h3>
+        <audio id="beep-two" preload="auto">
+            <source src="audio/beep.mp3"></source>
+        </audio>
     </div>
 
     </a>
@@ -55,7 +59,9 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <audio autoplay loop>
-    <source src="creepo.mp3">
+    <source src="audio/creepo.mp3">
 </audio>
+
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -24,12 +24,26 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<div id="btns" class="nav">
+    <button type="button" class="btn btn-rounded my-5 gradicolor">
+        <a href="news.php" class="text-decoration-none text-white-50"><h3>New game</h3></a>
+        <audio id="beep-two" preload="auto">
+            <source src="audio/beep.mp3"></source>
+        </audio>
+    </button>>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Clients</a></li>
+    <li><a href="#">Contact Us</a></li>
+</div>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
