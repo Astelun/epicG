@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.bg-animation{
+    background-color: crimson;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+
+.bg-animation__headline{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    line-height: 100vh;
+    font-size: 10vw;
+    color: #FFF;
+    margin: 0;
+}
+
+.bg-animation__banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.bg-animation__block{
+    position: relative;
+    width: 10%;
+    height: 10vh;
+    background: #FFF;
+    animation: flyIn 2s ease-in-out forwards;
+}
+
+@keyframes flyIn {
+    0%{
+        transform: translateZ(2000px);
+        background: url("../images/404_img.png") fixed center;
+        background-size: cover;
+        box-shadow: 0 5 px 15px rgba(0,0,0,.5);
+    }
+
+    100%{
+        transform: translateZ(0px);
+        background: url("../images/404_img.png") fixed center;
+        background-size: cover;
+        box-shadow: 0 0px 0px rgba(0,0,0,0);
+        border: 1px solid rgba(0,0,0,0);
+    }
+}
+
+.bg-animation.active .bg-animation__block{
+    animation: flyOut 2s ease-in-out forwards;
+    background: url("../images/P_T__20200802220221.jpg") fixed center;
+    background-size: cover;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+@keyframes flyOut {
+
+    0%{
+        transform: translateZ(0px);
+        background: url("../images/P_T__20200802220221.jpg") fixed center;
+        background-size: cover;
+        box-shadow: 0 0px 0px rgba(0,0,0,0);
+        border: 1px solid rgba(0,0,0,0);
+    }
+    100%{
+        transform: translateZ(2000px);
+        background: url("../images/P_T__20200802220221.jpg") fixed center;
+        background-size: cover;
+        box-shadow: 0 5 px 15px rgba(0,0,0,.5);
+    }
+
+
+}
+
+

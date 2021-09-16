@@ -39,7 +39,7 @@
 <body>
 
 <div class="bg-transparent">
-    <a href="start.php" class="text-decoration-none">
+    <a href="fail.html" class="text-decoration-none">
 
     <div class="text-muted font-monospace font-weight-bold w-25">
     <h3>Left-click to continue</h3>

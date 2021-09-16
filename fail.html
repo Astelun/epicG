@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sigende titel</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <link href="css/fail.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div class="bg-animation js-bg-animation">
+    <h2 class="bg-animation__headline">404, kæmpe øv</h2>
+    <div class="bg-animation__banner js-banner">
+    </div>
+</div>
+
+<audio autoplay loop>
+    <source src="Bruh%20Sound%20Effect%20%232.mp3">
+</audio>
+
+
+
+
+<script>
+    const banner = document.querySelector('.js-banner');
+    for(let i=0; i<100; i++){
+        const block = document.createElement('div');
+        block.classList.add('bg-animation__block');
+        block.style.animationDuration = Math.random() * 3 +'s';
+        banner.prepend(block);
+    }
+
+    setTimeout(() => {
+        document.querySelector('.js-bg-animation').classList.add('active');
+    }, 4000);
+</script>
+
+
+
+
+</body>
+</html>
