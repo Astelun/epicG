@@ -20,17 +20,35 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<style>
 
+    body{
+        background: url("images/BioShock_ The Collection_20210622224020.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
 <body>
+<?php include "./includes/header.php";?>
 
+<div class="btn-outline-danger m-5">New game
+</div>
 
+<div class="btn-outline-danger m-5">Load game
+</div>
 
+<div class="btn-outline-danger m-5">Settings
+</div>
 
-
+<div class="btn-outline-danger m-5">Credits
+</div>
 
 
 

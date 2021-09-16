@@ -5,5 +5,15 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 .text-muted{
-  opacity: 20%;
+  opacity: 0%;
 }
+
+@media screen and (min-width: 992px){
+
+
+  .text-muted{
+    opacity: 20%;
+  }
+}
+
+
