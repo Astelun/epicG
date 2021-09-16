@@ -38,21 +38,34 @@
 <body>
 <?php include "./includes/header.php";?>
 
-<div class="btn-outline-danger m-5">New game
+<div class="ms-5 w-25">
+    <button type="button" class="btn btn-rounded my-5 gradicolor">
+        <a href="news.php" class="text-decoration-none text-white-50"><h3>New game</h3></a>
+    </button>
+
+    <br>
+
+    <button type="button" class="btn btn-rounded my-5 gradicolor">
+        <a href="loading.php" class="text-decoration-none text-white-50"><h3>Load game</h3></a>
+    </button>
+
+    <br>
+
+    <button type="button" class="btn btn-rounded my-5 gradicolor">
+        <a href="fail.html" class="text-decoration-none text-white-50"><h3>Settings</h3></a>
+    </button>
+
+    <br>
+
+    <button type="button" class="btn btn-rounded my-5 gradicolor">
+        <a href="fail.html" class="text-decoration-none text-white-50"><h3>Credits</h3></a>
+    </button>
 </div>
 
-<div class="btn-outline-danger m-5">Load game
-</div>
-
-<div class="btn-outline-danger m-5">Settings
-</div>
-
-<div class="btn-outline-danger m-5">Credits
-</div>
 
 
-
-
-
+<audio autoplay loop>
+    <source src="Solas%20Theme.mp3">
+</audio>
 </body>
 </html>

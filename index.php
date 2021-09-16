@@ -54,13 +54,8 @@
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-<audio autoplay>
+<audio autoplay loop>
     <source src="creepo.mp3">
 </audio>
-
-<script src="js/script.js">
-    const name = "Joe";
-    let age = 22;
-</script>
 </body>
 </html>

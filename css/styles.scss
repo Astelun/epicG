@@ -16,7 +16,30 @@ $mute2: #F0F0F0;
 }
 
 .text-muted:hover{
-  transition: all 1.2s ease-in;
+  transition: all 0.8s ease-in;
   opacity: 100%;
+}
+
+.nav-item{
+  width: 10vw;
+  height: auto;
+}
+
+.gradicolor{
+  /* fallback for old browsers */
+  background: #8a3228;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to top, rgba(138, 50, 40, 0.5), rgba(183, 74, 1, 0.5));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to top, rgba(138, 50, 40, 0.5), rgba(183, 74, 1, 0.5))
+}
+
+.gradicolor:hover {
+  background: #e73636;
+  background: -webkit-linear-gradient(to top, rgba(231, 54, 54, 0.75), rgba(254, 176, 67, 0.75));
+  background: linear-gradient(to top, rgba(231, 54, 54, 0.75), rgba(254, 176, 67, 0.75))
+  border: 3px solid #eee;
 }
 
