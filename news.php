@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Epic Gamer Zone</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -24,24 +24,58 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
+<style>
 
-<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+    body{
+        background: url("images/BioShock_ The Collection_20210622224020.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+</style>
 <body>
+<?php include "./includes/header.php";?>
 
-<div id="btns" class="nav">
-    <button type="button" class="btn btn-rounded my-5 gradicolor">
-        <a href="news.php" class="text-decoration-none text-white-50"><h3>New game</h3></a>
-        <audio id="beep-two" preload="auto">
-            <source src="audio/beep.mp3"></source>
-        </audio>
-    </button>>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Clients</a></li>
-    <li><a href="#">Contact Us</a></li>
+<div id="btns">
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 col-xl-12 my-3">
+            <button type="button" class="btn btn-rounded gradicolor">
+                <a href="news.php" class="text-decoration-none text-white-50"><h4>New game</h4></a>
+                <audio id="beep-two" preload="auto">
+                    <source src="audio/beep.mp3"></source>
+                </audio>
+            </button>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-12 my-3">
+            <button type="button" class="btn btn-rounded gradicolor">
+                <a href="loading.php" class="text-decoration-none text-white-50"><h4>Load game</h4></a>
+            </button>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-12 my-3">
+            <button type="button" class="btn btn-rounded gradicolor">
+                <a href="fail.html" class="text-decoration-none text-white-50"><h4>Settings</h4></a>
+            </button>
+        </div>
+
+        <div class="col-12 col-md-6 col-xl-12 my-3">
+            <button type="button" class="btn btn-rounded gradicolor">
+                <a href="fail.html" class="text-decoration-none text-white-50"><h4>Credits</h4></a>
+            </button>
+        </div>
+    </div>
 </div>
+</div>
+
+
+<audio autoplay loop>
+    <source src="audio/Solas%20Theme.mp3 my-3">
+</audio>
 
 <script src="js/script.js"></script>
 
