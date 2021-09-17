@@ -1,6 +1,11 @@
 
 
 
+.btn-danger:hover{
+  background-color: red;
+  transition: all 0.75s ease-in;
+}
+
 .btn-outline-danger:hover{
   background-color: red;
   transition: all 0.75s ease-in;

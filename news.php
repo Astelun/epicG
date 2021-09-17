@@ -77,7 +77,7 @@
     <source src="audio/Solas%20Theme.mp3 my-3">
 </audio>
 
-<script src="js/script.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

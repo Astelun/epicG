@@ -29,7 +29,7 @@
 <style>
 
     body{
-        background: url("images/BioShock_ The Collection_20210622224020.jpg");
+        background: url("images/BioShock.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
