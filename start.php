@@ -39,34 +39,36 @@
 <body>
 <?php include "./includes/header.php";?>
 
-<div id="btns" class="ms-5 mt-5 pt-5 w-25">
-    <button type="button" class="btn btn-rounded my-5 gradicolor">
-        <a href="news.php" class="text-decoration-none text-white-50"><h4>New game</h4></a>
-        <audio id="beep-two" preload="auto">
-            <source src="audio/beep.mp3"></source>
-        </audio>
-    </button>
+<div class="container-fluid">
+    <div class="row my-5 ms-2">
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
+            <button type="button" class="btn btn-rounded gradicolor align-center">
+                <a href="news.php" class="text-decoration-none text-white-50"><h4>New game</h4></a>
+                <audio id="beep-two" preload="auto">
+                    <source src="audio/beep.mp3"></source>
+                </audio>
+            </button>
+        </div>
 
-    <br>
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
+            <button type="button" class="btn btn-rounded gradicolor align-center">
+                <a href="loading.php" class="text-decoration-none text-white-50"><h4>Load game</h4></a>
+            </button>
+        </div>
 
-    <button type="button" class="btn btn-rounded my-5 gradicolor">
-        <a href="loading.php" class="text-decoration-none text-white-50"><h4>Load game</h4></a>
-    </button>
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
+            <button type="button" class="btn btn-rounded gradicolor align-center">
+                <a href="fail.html" class="text-decoration-none text-white-50"><h4>Settings</h4></a>
+            </button>
+        </div>
 
-    <br>
-
-    <button type="button" class="btn btn-rounded my-5 gradicolor">
-        <a href="fail.html" class="text-decoration-none text-white-50"><h4>Settings</h4></a>
-    </button>
-
-    <br>
-
-    <button type="button" class="btn btn-rounded my-5 gradicolor">
-        <a href="test.php" class="text-decoration-none text-white-50"><h4>Credits</h4></a>
-    </button>
-
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
+            <button type="button" class="btn btn-rounded gradicolor align-center">
+                <a href="test.php" class="text-decoration-none text-white-50"><h4>Credits</h4></a>
+            </button>
+        </div>
+    </div>
 </div>
-
 
 
 <audio autoplay loop>

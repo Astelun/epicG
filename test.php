@@ -72,7 +72,7 @@
 
 
 <audio autoplay loop>
-    <source src="audio/Solas%20Theme.mp3 my-3">
+    <source src="audio/Solas%20Theme.mp3">
 </audio>
 
 <script src="js/script.js"></script>

@@ -26,26 +26,18 @@ $mute2: #F0F0F0;
 }
 
 .gradicolor{
-  /* fallback for old browsers */
   background: #8a3228;
 
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to top, rgba(138, 50, 40, 0.9), rgba(183, 74, 1, 0.9));
+  background: -webkit-linear-gradient(to top, rgba(138, 50, 40, 0.8), rgba(183, 74, 1, 0.8));
 
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to top, rgba(138, 50, 40, 0.9), rgba(183, 74, 1, 0.9))
+  background: linear-gradient(to top, rgba(138, 50, 40, 0.8), rgba(183, 74, 1, 0.8));
 }
 
 .gradicolor:hover {
   background: #e73636;
   background: -webkit-linear-gradient(to top, rgba(231, 54, 54, 0.95), rgba(254, 176, 67, 0.95));
-  background: linear-gradient(to top, rgba(231, 54, 54, 0.95), rgba(254, 176, 67, 0.95))
+  background: linear-gradient(to top, rgba(231, 54, 54, 0.95), rgba(254, 176, 67, 0.95));
   border: 3px solid #eee;
-}
-
-@media screen and (min-width: 1200px){
-
-  }
 }
 
 
