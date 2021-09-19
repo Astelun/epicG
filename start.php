@@ -45,7 +45,7 @@
     <div class="row my-5 ms-2">
         <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
             <button type="button" class="btn btn-rounded gradicolor align-center">
-                <a href="news.php" class="text-decoration-none text-white-50"><h4>New game</h4></a>
+                <a href="test.php" class="text-decoration-none text-white-50"><h4>New game</h4></a>
                 <audio id="beep-two" preload="auto">
                     <source src="audio/beep.mp3">
                 </audio>

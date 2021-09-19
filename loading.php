@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Load game</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -276,6 +276,7 @@
 
 
 <br>
+
     <p class="text-center">
         <a class="btn btn-outline-primary btn-info col-2 shadow rounded btn-lg text-white" data-bs-toggle="collapse" href="#CollapseListe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Liste</a>
     </p>
@@ -307,7 +308,9 @@
         </div>
     </div>
 </div>
+
 <br>
+
 
 <div class="container-fluid">
     <div class="row justify-content-center gy-1 mb-5">
