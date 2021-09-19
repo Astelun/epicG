@@ -58,7 +58,7 @@ body {
 @keyframes flyIn {
     0%{
         transform: translateZ(0px);
-        background: url("../images/BioShock_ The Collection_20210622224020.jpg") fixed center;
+        background: url("../images/BioShock.jpg") fixed center;
         background-size: cover;
         box-shadow: 0 0px 0px rgba(0,0,0,0);
         border: 1px solid rgba(0,0,0,0);
@@ -66,7 +66,7 @@ body {
 
     100%{
         transform: translateZ(2000px);
-        background: url("../images/BioShock_ The Collection_20210622224020.jpg") fixed center;
+        background: url("../images/BioShock.jpg") fixed center;
         background-size: cover;
         box-shadow: 0 5 px 15px rgba(0,0,0,.5);
     }

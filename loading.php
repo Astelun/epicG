@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Load game</title>
+    <title>Test</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -40,17 +40,54 @@
 <body>
 <!-- Back to top button -->
 
-<nav class="navbar navbar-light justify-content-between fixed-top position-fixed">
-    <a class="navbar-brand px-4" href="start.php">
-        <img src="images/astelun_logo1.png" class="img-thumbnail" width="100px">
-        <h4 class="ms-2 text-white" >Astelun</h4>
-    </a>
+<nav class="navbar navbar-light fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav p-2 col-4 col-lg-2 text-center bg-light">
+                <li class="nav-item">
+                    <strong>Game paused</strong>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Liste
+                    </a>
+                    <ul class="dropdown-menu overflow-auto" style="height: 50vh" aria-labelledby="navbarDropdown">
+                        <li><a href="#Templar" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Assassin's Creed</a></li>
+                        <li><a href="#Diner" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Batman</a></li>
+                        <li><a href="#Daddy" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">BioShock</a></li>
+                        <li><a href="#Dead" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Bloodborne</a></li>
+                        <li><a href="#Solas" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Dragon Age</a></li>
+                        <li><a href="#Dragon" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Elder Scrolls</a></li>
+                        <li><a href="#Village" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Everybody's Gone to the Rapture</a></li>
+                        <li><a href="#Cloud" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Final Fantasy</a></li>
+                        <li><a href="#Sushi" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Ghost of Tsushima</a></li>
+                        <li><a href="#Kratos" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">God of War</a></li>
+                        <li><a href="#Robo" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Horizon</a></li>
+                        <li><a href="#Sand" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Journey</a></li>
+                        <li><a href="#Buzz" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Mass Effect</a></li>
+                        <li><a href="#Boss" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Metal Gear</a></li>
+                        <li><a href="#Pis" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">P.T.</a></li>
+                        <li><a href="#Cowboy" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Red Dead Redemption</a></li>
+                        <li><a href="#Joel" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">The Last of Us</a></li>
+                        <li><a href="#Charter" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Uncharted</a></li>
+                        <li><a href="#Elg" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Until Dawn</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="start.php">Main menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link bg-danger rounded text-white" href="index.php">Exit game</a>
+                </li>
 
-    <form class="form-inline">
-        <a href="index.php"><button type="button" class="btn btn-danger btn-lg me-4 mb-5">X</button>
-        </a></form>
+            </ul>
+        </div>
+    </div>
 </nav>
-
 
 <div class="row justify-content-center gx-0">
     <div class="col-12 col-lg-10 g-3 g-lg-0">
@@ -86,15 +123,6 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="15000">
-                    <img src="images/Rapture.jpg" class="d-block w-100" alt="Maler">
-                    <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
-                        <a href="#Village" class="text-decoration-none text-white"><h5>Forbløffende grafik</h5></a>
-                        <p>"Everybody's gone to the Rapture" var i 2015 det absolut ypperste man kunne opnå indenfor grafik.
-                            At bevæge sig igennem den forladte britiske landsby,
-                            var fra start af fantastisk idyllisk, og illustrerede hvor vidunderligt et video spil kunne se ud.</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/Skyrim_20200805002245.jpg" class="d-block w-100" alt="Bjerg">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Dragon" class="text-decoration-none text-white"><h5>Uendelige eventyr</h5></a>
@@ -104,7 +132,25 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
-                    <img src="images/The%20Last%20of%20Us™%20Part%20II_20200621044523.jpg" class="d-block w-100" alt="Ild">
+                    <img src="images/Rapture.jpg" class="d-block w-100" alt="Maler">
+                    <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
+                        <a href="#Village" class="text-decoration-none text-white"><h5>Forbløffende grafik</h5></a>
+                        <p>"Everybody's gone to the Rapture" var i 2015 det absolut ypperste man kunne opnå indenfor grafik.
+                            At bevæge sig igennem den forladte britiske landsby,
+                            var fra start af fantastisk idyllisk, og illustrerede hvor vidunderligt et video spil kunne se ud.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="15000">
+                    <img src="images/GoW.jpg" class="d-block w-100" alt="Spook">
+                    <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
+                        <a href="#Kratos" class="text-decoration-none text-white"><h5>Det bliver ikke større</h5></a>
+                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
+                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
+                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="15000">
+                    <img src="images/The%20Last%20of%20Us™%20Part%20II_20200620013315.jpg" class="d-block w-100" alt="Ild">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Joel" class="text-decoration-none text-white"><h5>Ubeskriveligt drama</h5></a>
                         <p>"The Last of Us" fra 2015, kan kun beskrives som et mesterværk. Historien er noget af det mest gribende man kan opleve, og starter hårdere ud en noget andet før har gjort.
@@ -120,16 +166,6 @@
                             Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="15000">
-                    <img src="images/GoW.jpg" class="d-block w-100" alt="Spook">
-                    <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
-                        <a href="#Kratos" class="text-decoration-none text-white"><h5>Det bliver ikke større</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
-                    </div>
-                </div>
-
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/Ghost%20of%20Tsushima_LAKESHINE.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
@@ -266,45 +302,6 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
-    </div>
-</div>
-
-
-
-
-
-
-<br>
-
-    <p class="text-center">
-        <a class="btn btn-outline-primary btn-info col-2 shadow rounded btn-lg text-white" data-bs-toggle="collapse" href="#CollapseListe" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Liste</a>
-    </p>
-
-<div class="container-fluid">
-    <div class=" row col-10 col-lg-4">
-        <div class="collapse multi-collapse" id="CollapseListe">
-            <div class="card card-body border-info">
-                <a href="#Templar" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Assassin's Creed</a>
-                <a href="#Diner" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Batman</a>
-                <a href="#Daddy" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">BioShock</a>
-                <a href="#Dead" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Bloodborne</a>
-                <a href="#Solas" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Dragon Age</a>
-                <a href="#Dragon" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Elder Scrolls</a>
-                <a href="#Village" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Everybody's Gone to the Rapture</a>
-                <a href="#Cloud" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Final Fantasy</a>
-                <a href="#Sushi" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Ghost of Tsushima</a>
-                <a href="#Kratos" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">God of War</a>
-                <a href="#Robo" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Horizon</a>
-                <a href="#Sand" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Journey</a>
-                <a href="#Buzz" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Mass Effect</a>
-                <a href="#Boss" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Metal Gear</a>
-                <a href="#Pis" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">P.T.</a>
-                <a href="#Cowboy" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Red Dead Redemption</a>
-                <a href="#Joel" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">The Last of Us</a>
-                <a href="#Charter" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Uncharted</a>
-                <a href="#Elg" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Until Dawn</a>
-            </div>
         </div>
     </div>
 </div>
@@ -744,7 +741,7 @@
 </div>
 <br>
 
-<button type="button" class="btn btn-outline-danger bg-white opacity-50 btn-floating btn-lg" id="Topbtn">
+<button type="button" class="btn btn-outline-danger bg-white opacity-75 btn-floating btn-lg" id="Topbtn">
     <i class="fas fa-arrow-up">Top</i>
 </button>
 
@@ -770,7 +767,7 @@
     function backToTop() {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
-        }
+    }
 </script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

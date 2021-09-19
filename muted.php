@@ -62,11 +62,11 @@
         <h2>De nyeste trailers og screenshots, samt de største titler fra 2021 intil videre. Klik ind her for at få et indblik i hvad der rør på sig i den fantastiske verden der er videospil.</h2>
         <div class="text-center container-fluid">
             <div class="row">
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a href="news.php" role="button">
                         <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
                     </a></div>
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a data-bs-toggle="collapse" href="#collapseNew" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
                     </a></div>
@@ -87,11 +87,11 @@
         </h2>
         <div class="text-center container-fluid">
             <div class="row">
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a href="loading.php" role="button">
                         <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
                     </a></div>
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a data-bs-toggle="collapse" href="#collapseLoad" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
                     </a></div>
@@ -101,22 +101,22 @@
 </div>
 <div class="collapse" id="collapseSet">
     <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
-        <h2>Her er en mute knap, men ellers ikke noget indhold. Hele denne side er lavet til at det skulle ligne en hovedmenu fra et spil.
+        <h2>Her er en unmute knap, men ellers ikke noget indhold. Hele denne side er lavet til at det skulle ligne en hovedmenu fra et spil.
             Derfor er knapper kaldt som de er <i>(New Game, Load Game, Settings og Credits)</i>.
             Der var ikke noget indhold der var oplagt at sende ind i Settings og Credits, så skulle du forsøge at trykke ind på denne side, kommer du til en 404 fejl-side.
             Der er heldigvis mulighed for at komme tilbage til døren fra forsiden, ved blot at trykke hvor som helst på skærmen.
         </h2>
         <div class="text-center container-fluid">
             <div class="row">
-                <div class="col-12" id="btns">
-                    <a href="muted.php" role="button">
-                        <button type="button" class="btn btn-dark btn-lg me-4 mb-5 col-4">Mute &nbsp;<i class="fas fa-volume-mute"></i></button>
+                <div class="col-12">
+                    <a href="start.php" role="button">
+                        <button type="button" class="btn btn-dark btn-lg me-4 mb-5 col-4">Unmute &nbsp;<i class="fas fa-volume-up"></i></button>
                     </a></div>
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a href="fail.html" role="button">
                         <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
                     </a></div>
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a data-bs-toggle="collapse" href="#collapseSet" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
                     </a></div>
@@ -134,11 +134,11 @@
         </h2>
         <div class="text-center container-fluid">
             <div class="row">
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a href="fail.html" role="button">
                         <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
                     </a></div>
-                <div class="col-6" id="btns">
+                <div class="col-6">
                     <a data-bs-toggle="collapse" href="#collapseCred" role="button" aria-expanded="false" aria-controls="collapseExample">
                         <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
                     </a></div>
@@ -150,32 +150,29 @@
 
 <div class="container-fluid">
     <div class="row my-5 ms-2">
-        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start" id="btns">
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
             <button type="button" class="btn btn-rounded gradicolor align-center">
                 <a class="btn text-decoration-none text-white-50" data-bs-toggle="collapse" href="#collapseNew" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <h4>New game</h4>
-                    <audio id="beep-two" preload="auto">
-                        <source src="audio/beep.mp3">
-                    </audio>
                 </a>
             </button>
         </div>
 
-        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start" id="btns">
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
             <button type="button" class="btn btn-rounded gradicolor align-center">
                 <a class="btn text-decoration-none text-white-50" data-bs-toggle="collapse" href="#collapseLoad" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <h4>Load game</h4></a>
             </button>
         </div>
 
-        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start" id="btns">
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
             <button type="button" class="btn btn-rounded gradicolor align-center">
                 <a class="btn text-decoration-none text-white-50" data-bs-toggle="collapse" href="#collapseSet" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <h4>Settings</h4></a>
             </button>
         </div>
 
-        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start" id="btns">
+        <div class="col-12 col-md-6 col-xl-12 my-4 d-flex justify-content-center justify-content-xl-start">
             <button type="button" class="btn btn-rounded gradicolor align-center">
                 <a class="btn text-decoration-none text-white-50" data-bs-toggle="collapse" href="#collapseCred" role="button" aria-expanded="false" aria-controls="collapseExample">
                     <h4>Credits</h4></a>
@@ -183,11 +180,6 @@
         </div>
     </div>
 </div>
-
-
-<audio autoplay loop>
-    <source src="audio/Solas%20Theme.mp3">
-</audio>
 
 <script src="js/script.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
