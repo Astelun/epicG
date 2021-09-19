@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 <nav class="navbar navbar-light justify-content-between fixed-top">
     <a class="navbar-brand px-4" href="start.php">
         <img src="images/astelun_logo1.png" class="img-thumbnail" width="100px">
