@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Epic Gamer Zone</title>
+    <title>Main menu</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -21,6 +21,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,26 +42,32 @@
 </style>
 <body>
 
-<nav class="navbar navbar-light justify-content-between fixed-top">
-    <a class="navbar-brand px-4">
+<nav class="navbar navbar-light justify-content-between">
+
+    <a class="navbar-brand px-4 d-none d-lg-block">
         <img src="images/astelun_logo1.png" class="img-thumbnail" width="100px">
         <h4 class="ms-2 text-white" >Astelun</h4>
     </a>
+    <a class="navbar-brand px-4 d-block d-lg-none">
+        <img src="images/astelun_logo1.png" class="img-thumbnail" width="60px">
+    </a>
 
-
-    <form class="form-inline">
+    <form class="form-inline d-none d-lg-block">
         <div id="btns">
             <a href="index.php"><button type="button" class="btn btn-danger btn-lg me-4 mb-5">X</button></div>
-        </a></form>
-</nav>
+        </a>
+    </form>
 
-<div class="navbar-spacer">
-    &nbsp;
-</div>
+    <form class="form-inline d-block d-lg-none">
+        <div id="btns">
+            <a href="index.php"><button type="button" class="btn btn-danger btn-lg me-4 my-5">X</button></div>
+        </a>
+    </form>
+</nav>
 
 
 <div class="collapse" id="collapseNew">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-9 col-lg-8 mx-auto disc" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>De nyeste trailers og screenshots, samt de største titler fra 2021 intil videre. Klik ind her for at få et indblik i hvad der rør på sig i den fantastiske verden der er videospil.</h2>
         <div class="text-center container-fluid">
             <div class="row">
@@ -76,7 +85,7 @@
 </div>
 
 <div class="collapse" id="collapseLoad">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-10 col-lg-8 mx-auto disc" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>Jeg har efterhånden spillet videospil i et par år. Gennem den tid har jeg oplevet talrige eventyr,
             haft adrenalin susende rundt i kroppen, og har været vidne til nogle af de mest følelsesladede dramatiske øjeblikke.
             <br>
@@ -100,7 +109,7 @@
     </div>
 </div>
 <div class="collapse" id="collapseSet">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-10 col-lg-8 mx-auto disc" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>Her er en mute knap, men ellers ikke noget indhold. Hele denne side er lavet til at det skulle ligne en hovedmenu fra et spil.
             Derfor er knapper kaldt som de er <i>(New Game, Load Game, Settings og Credits)</i>.
             Der var ikke noget indhold der var oplagt at sende ind i Settings og Credits, så skulle du forsøge at trykke ind på denne side, kommer du til en 404 fejl-side.
@@ -110,15 +119,15 @@
             <div class="row">
                 <div class="col-12" id="btns">
                     <a href="muted.php" role="button">
-                        <button type="button" class="btn btn-dark btn-lg me-4 mb-5 col-4">Mute &nbsp;<i class="fas fa-volume-mute"></i></button>
+                        <button type="button" class="btn btn-dark btn-lg me-4 mb-5 col-7 col-lg-4">Mute &nbsp;<i class="fas fa-volume-mute"></i></button>
                     </a></div>
                 <div class="col-6" id="btns">
                     <a href="fail.html" role="button">
-                        <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
+                        <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-6 col-lg-3">&#10003;</button>
                     </a></div>
                 <div class="col-6" id="btns">
                     <a data-bs-toggle="collapse" href="#collapseSet" role="button" aria-expanded="false" aria-controls="collapseExample">
-                        <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
+                        <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-6 col-lg-3">X</button>
                     </a></div>
             </div>
         </div>
@@ -126,7 +135,7 @@
 </div>
 
 <div class="collapse" id="collapseCred">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-10 col-lg-8 mx-auto disc" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>Her er der ikke noget indhold. Hele denne side er lavet til at det skulle ligne en hovedmenu fra et spil.
             Derfor er knapper kaldt som de er <i>(New Game, Load Game, Settings og Credits)</i>.
             Der var ikke noget indhold der var oplagt at sende ind i Settings og Credits, så skulle du forsøge at trykke ind på denne side, kommer du til en 404 fejl-side.

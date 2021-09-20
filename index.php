@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Epic Gamer Zone</title>
+    <title>Tryk på døren</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -43,7 +43,7 @@
     <a href="start.php" class="text-decoration-none">
 
     <div id="btns" class="text-muted font-monospace font-weight-bold w-25">
-    <h3>Left-click to continue</h3>
+    <h2>Left-click to continue</h2>
         <audio id="beep-two" preload="auto">
             <source src="audio/beep.mp3"></source>
         </audio>

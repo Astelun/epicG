@@ -21,6 +21,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,44 +42,43 @@
 </style>
 <body>
 
-<nav class="navbar navbar-light justify-content-between fixed-top">
+<nav class="autohide navbar navbar-expand-lg navbar-light justify-content-between">
+    <div class="container-fluid">
     <a class="navbar-brand px-4">
         <img src="images/astelun_logo1.png" class="img-thumbnail" width="100px">
-        <h4 class="ms-2 text-white" >Astelun</h4>
+        <h3 class="ms-2 text-white" >Astelun</h3>
     </a>
-
 
     <form class="form-inline">
         <div id="btns">
-        <a href="index.php"><button type="button" class="btn btn-danger btn-lg me-4 mb-5">X</button></div>
+            <a href="index.php"><button type="button" class="btn btn-danger btn-lg me-4 mb-5">X</button></div>
         </a></form>
+    </div>
 </nav>
 
-<div class="navbar-spacer">
-    &nbsp;
-</div>
+
 
 
 <div class="collapse" id="collapseNew">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-9 col-lg-8 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>De nyeste trailers og screenshots, samt de største titler fra 2021 intil videre. Klik ind her for at få et indblik i hvad der rør på sig i den fantastiske verden der er videospil.</h2>
         <div class="text-center container-fluid">
             <div class="row">
                 <div class="col-6" id="btns">
                     <a href="news.php" role="button">
-            <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
-        </a></div>
+                        <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
+                    </a></div>
                 <div class="col-6" id="btns">
-        <a data-bs-toggle="collapse" href="#collapseNew" role="button" aria-expanded="false" aria-controls="collapseExample">
-            <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
-        </a></div>
+                    <a data-bs-toggle="collapse" href="#collapseNew" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
+                    </a></div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="collapse" id="collapseLoad">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-10 col-lg-8 mx-auto disc" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>Jeg har efterhånden spillet videospil i et par år. Gennem den tid har jeg oplevet talrige eventyr,
             haft adrenalin susende rundt i kroppen, og har været vidne til nogle af de mest følelsesladede dramatiske øjeblikke.
             <br>
@@ -84,23 +86,23 @@
             <br>
             Her er samlet nogle af de mest vidunderlige historier, fantastiske øjeblikke og visuelle fornøjelser i form af grafik der er så farverig og gennemarbejdet at det kunne hænge på et museum.
             Altså mine bud på kunst, fra spil jeg tidligere har spillet.
-            </h2>
+        </h2>
         <div class="text-center container-fluid">
             <div class="row">
                 <div class="col-6" id="btns">
                     <a href="loading.php" role="button">
-            <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
-        </a></div>
+                        <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
+                    </a></div>
                 <div class="col-6" id="btns">
-        <a data-bs-toggle="collapse" href="#collapseLoad" role="button" aria-expanded="false" aria-controls="collapseExample">
-            <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
-        </a></div>
+                    <a data-bs-toggle="collapse" href="#collapseLoad" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
+                    </a></div>
             </div>
         </div>
     </div>
 </div>
 <div class="collapse" id="collapseSet">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-10 col-lg-8 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>Her er en mute knap, men ellers ikke noget indhold. Hele denne side er lavet til at det skulle ligne en hovedmenu fra et spil.
             Derfor er knapper kaldt som de er <i>(New Game, Load Game, Settings og Credits)</i>.
             Der var ikke noget indhold der var oplagt at sende ind i Settings og Credits, så skulle du forsøge at trykke ind på denne side, kommer du til en 404 fejl-side.
@@ -110,23 +112,23 @@
             <div class="row">
                 <div class="col-12" id="btns">
                     <a href="muted.php" role="button">
-            <button type="button" class="btn btn-dark btn-lg me-4 mb-5 col-4">Mute &nbsp;<i class="fas fa-volume-mute"></i></button>
-        </a></div>
+                        <button type="button" class="btn btn-dark btn-lg me-4 mb-5 col-4">Mute &nbsp;<i class="fas fa-volume-mute"></i></button>
+                    </a></div>
                 <div class="col-6" id="btns">
                     <a href="fail.html" role="button">
                         <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
                     </a></div>
                 <div class="col-6" id="btns">
-        <a data-bs-toggle="collapse" href="#collapseSet" role="button" aria-expanded="false" aria-controls="collapseExample">
-            <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
-        </a></div>
+                    <a data-bs-toggle="collapse" href="#collapseSet" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
+                    </a></div>
             </div>
         </div>
     </div>
 </div>
 
 <div class="collapse" id="collapseCred">
-    <div class="card card-body border-5 p-5 col-11 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
+    <div class="card card-body border-5 p-5 col-10 col-lg-8 mx-auto" style="background-color: #F8F4EF; border-color: #4A3828">
         <h2>Her er der ikke noget indhold. Hele denne side er lavet til at det skulle ligne en hovedmenu fra et spil.
             Derfor er knapper kaldt som de er <i>(New Game, Load Game, Settings og Credits)</i>.
             Der var ikke noget indhold der var oplagt at sende ind i Settings og Credits, så skulle du forsøge at trykke ind på denne side, kommer du til en 404 fejl-side.
@@ -136,12 +138,12 @@
             <div class="row">
                 <div class="col-6" id="btns">
                     <a href="fail.html" role="button">
-            <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
-        </a></div>
+                        <button type="button" class="btn btn-success btn-lg me-4 mb-5 col-3">&#10003;</button>
+                    </a></div>
                 <div class="col-6" id="btns">
-        <a data-bs-toggle="collapse" href="#collapseCred" role="button" aria-expanded="false" aria-controls="collapseExample">
-            <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
-        </a></div>
+                    <a data-bs-toggle="collapse" href="#collapseCred" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <button type="button" class="btn btn-danger btn-lg me-4 mb-5 col-3">X</button>
+                    </a></div>
             </div>
         </div>
     </div>

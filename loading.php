@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Test</title>
+    <title>Epic Gamer</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -21,6 +21,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -312,29 +315,34 @@
 <div class="container-fluid">
     <div class="row justify-content-center gy-1 mb-5">
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Joel">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Joel">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">The Last of Us</h2>
                     <h5 class="card-subtitle">2015, 2020</h5>
                 </div>
-                <img src="images/The%20Last%20of%20Us™%20Part%20II_20200619192015.jpg">
+                <img src="images/The%20Last%20of%20Us™%20Part%20II_20200619192015.jpg" alt="Ridetur">
                 <p>
                     <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                            </div>
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Ellie og Joel.<br> Det kan nok ikke helt beskrives. Det skal opleves</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/qPNiIeKMHyg?start=124" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Village">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Village">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Everybody's Gone to the Rapture</h2>
@@ -347,8 +355,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Det ser så realistisk ud.<br> Der er helt fantastisk grafik.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/FaLjDOki0Tc?start=122" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -356,7 +369,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Diner">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Diner">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Batman: Arkham-serien</h2>
@@ -370,7 +383,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Et godt callback til det første spil.<br> Arkham Knight mestrer storytelling på et meget højt plan.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QCcKyxX15e4?start=178" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -378,7 +396,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Buzz">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Buzz">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Mass Effect-serien</h2>
@@ -391,8 +409,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Lækre visuals og fin action.<br> Mass Effect Andromeda har bestemt dets øjeblikke med imponerende grafik og stærke visuelle udtryk</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RMhd4r3rInY?start=178" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -401,7 +424,7 @@
         </div>
 
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Sand">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Sand">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Journey</h2>
@@ -415,7 +438,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                <h4>Ingen ord, og intet mål.<br> Journey har ikke brug for nogen af delene for alligevel at fortælle en smuk historie og være det rene meditation.</h4>
+                                <div class="ratio ratio-16x9 videoContainer">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mU3nNT4rcFg?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -423,7 +451,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Cowboy">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Cowboy">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Red Dead Redemtion</h2>
@@ -436,8 +464,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Ja, det er GTA med heste.<br> Dog fortæller spillet en meget spændende og dybere historie, end bare lige (<i>og så ser det pisse godt ud</i>)...</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0d-U2QL2Qvc?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -446,7 +479,7 @@
         </div>
 
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Kratos">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Kratos">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">God of War</h2>
@@ -460,7 +493,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Det er stort. Meget stort.<br> Udover hvor stor Midgårds Ormen så vandt God of War årets spil i 2018 for dets historie og over-the-top action brag mod "The Stranger"</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1rJBP0jz95M?start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -468,7 +506,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Templar">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Templar">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Assassin's Creed</h2>
@@ -481,8 +519,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Der har jeg været!<br> Noget af det som Ubisoft's langtids kørende franchise er mest kendt for, er de mange steder man kan kravle rundt.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/u96otdmI3To?start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -491,7 +534,7 @@
         </div>
 
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Robo">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Robo">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Horizon: Zero Dawn</h2>
@@ -505,7 +548,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Robot-dinosaurus + hulemennesker<br> En sindsyg blanding, som bare virker perfekt.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4OFF7N3TV5E?start=24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -526,8 +574,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Fantastiske eventyr!<br> Indiana Jones + Tomb Raider = Uncharted.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/IfrfJn_-24g?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -536,7 +589,7 @@
         </div>
 
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Boss">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Boss">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Metal Gear-serien</h2>
@@ -550,7 +603,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Kojima når han er bedst<br> Ser fantastisk ud, og Kojima er en legendarisk instruktør.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C19ap2M7DDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -558,7 +616,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Solas">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Solas">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Dragon Age</h2>
@@ -571,8 +629,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>En cliffhanger...<br> 7 år siden, og jeg vil virkelig gerne stadig til Tevinter og stoppe Fen'harel.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7II1Peu79HQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -581,7 +644,7 @@
         </div>
 
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Pis">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Pis">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">P.T. <em>(Playable Teaser)</em></h2>
@@ -595,7 +658,14 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Så er det tis-i-bukserne-tid<br> P.T. var et genialt markedsførings trick. Det var en reklame for et spil, som var et spil i sig selv. <br>
+                                        Spillet blev desværre aflyst, men reklamen i sig selv er noget af det mest uhyggelige jeg nogensinde har oplevet</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WbCHGBW6gLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <p>Jeg blev nødt til at tage en Pewdiepie video, for at det ikke var for skræmmende...</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -603,7 +673,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Cloud">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Cloud">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Final Fantasy</h2>
@@ -616,8 +686,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Japan's heavy hitter<br> De fleste har set den kæmpe store sværd på Clouds ryg. Så stort at han jo teknisk set umuligt ville kunne løfte det.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/A3sBZ5Nr4hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -625,7 +700,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Daddy">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Daddy">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">BioShock</h2>
@@ -639,7 +714,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Dyk ned i et hjerne-smeltende mysterie<br> Der findes kanaler på YouTube der udelukkende er dedikeret til at snakke om BioShock, det må være tegn på at det er et cult fænomen</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3RXpEXA0jw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -647,7 +727,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Dead">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Dead">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Bloodborne</h2>
@@ -660,8 +740,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Død, død og død.<br> Det ser smukt ud, men man dør godt nok meget. Denne trailer er fra det første spil i "serien"</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Syl1QRue2QE?start=184" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -669,7 +754,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Sushi">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Sushi">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Ghost of Tsushima</h2>
@@ -683,7 +768,12 @@
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
                             <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Jin Sakai i duel med Lady Masako. <br>Bladene der falder og ilden der langsomt spreder sig. Alt oplyst af solnedgangen</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/kSAvzeopPC8?start=424" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -691,7 +781,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Dragon">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Dragon">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">The Elder Scrolls-serien</h2>
@@ -704,8 +794,11 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample1">
-                            <div class="card card-body border-0">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                <h4>Fus Ro Dah!<br> Det er 10 år siden, men JA det er stadig fedt at rende rundt i Skyrim</h4>
+                                <div class="ratio ratio-16x9 videoContainer">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/JSRtYpNRoN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -714,7 +807,7 @@
         </div>
 
 
-        <div class="col-12 col-md-8 col-xl-8 my-2" id="Elg">
+        <div class="col-12 col-md-8 col-xl-10 my-2" id="Elg">
             <div class="card h-75">
                 <div class="card-body">
                     <h2 class="card-title">Until Dawn</h2>
@@ -727,8 +820,13 @@
                 <div class="row">
                     <div class="col">
                         <div class="collapse multi-collapse" id="multiCollapseExample2">
-                            <div class="card card-body">
-                                3 spil af Rocksteady studiet, (1 spil i serien der blev lavet af et andet studie). Batman er sej og derfor er batman spillet sejt, her er et billede af den diner man er i i starten, som er der hvor alt bare går galt,Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="card card-body border-0">
+                                <div class="col-10 col-lg-8 gy-4 mx-auto">
+                                    <h4>Det er en gyserfilm<br> Det er fantastisk at fleste har set den kæmpe store sværd på Clouds ryg. Så stort at han jo teknisk set umuligt ville kunne løfte det.</h4>
+                                    <div class="ratio ratio-16x9 videoContainer">
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Ly39q3fkTJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
