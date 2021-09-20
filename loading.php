@@ -147,7 +147,7 @@
                     <img src="images/GoW.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Kratos" class="text-decoration-none text-white"><h5>Det bliver ikke større</h5></a>
-                        <p>"I God of War 3, slag Kratos alle de græske guder ihjel. Der var derfor ikke noget at sige til at da spil-serien fortsatte, måtte det ske i et nyt land."</p>
+                        <p>I God of War 3, slag Kratos alle de græske guder ihjel. Der var derfor ikke noget at sige til at da spil-serien fortsatte, måtte det ske i et nyt land.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
@@ -172,8 +172,8 @@
                     <img src="images/Ghost%20of%20Tsushima_LAKESHINE.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Sushi" class="text-decoration-none text-white"><h5>Alt ser flot ud</h5></a>
-                        <p>"Det er muligvs det smukkeste spil nogensinde. De japanske skove og de mange templer giver øen Tsushima noget helt særlig. <br>
-                            Hvert øjeblik kan du stoppe op og bare nyde hvor vidunderlig og farverig verdenen er"</p>
+                        <p>Det er muligvs det smukkeste spil nogensinde. De japanske skove og de mange templer giver øen Tsushima noget helt særlig. <br>
+                            Hvert øjeblik kan du stoppe op og bare nyde hvor vidunderlig og farverig verdenen er</p>
                     </div>
                 </div>
 
@@ -195,14 +195,14 @@
                     <img src="images/Journey.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Sand" class="text-decoration-none text-white"><h5>En uventet rejse</h5></a>
-                        <p>Journey er meditativt, positivt og formår at fortælle hele historien uden at sige et eneste ord</p>
+                        <p>"Journey" er meditativt, positivt og formår at fortælle hele historien uden at sige et eneste ord</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/METAL%20GEAR%20SOLID%20V.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Boss" class="text-decoration-none text-white"><h5>De rigtige specialstyrker</h5></a>
-                        <p>Big Boss er den ultimative soldat. <br>I <strong>Metal Gear Solid V</strong>
+                        <p>Big Boss er den ultimative soldat. <br>I <strong>"Metal Gear Solid V"</strong>
                             grundlægger Big Boss så sit eget private militær, og det kommer til at være dig der står i spidsen for det hele</p>
                     </div>
                 </div>
@@ -211,14 +211,15 @@
                     <img src="images/tresspaser.jpg" class="d-block w-100" alt="Bjerg">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Solas" class="text-decoration-none text-white"><h5>Glem alt om drager og dæmoner, dine venner er vigtigst</h5></a>
-                        <p>Dragon Age samler den klassiske fantasy verden, med fokus på forhold og venskaber, som vi kender fra den virkelige verden.</p>
+                        <p><strong>"Dragon Age"</strong> samler den klassiske fantasy verden, med fokus på forhold og venskaber, som vi kender fra den virkelige verden.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/PT_door.jpg" class="d-block w-100" alt="Ild">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Pis" class="text-decoration-none text-white"><h5>Det absolut mest skræmmende jeg nogensinde har prøvet...</h5></a>
-                        <p>Hideo Kojima og Guillermo del Toro i en forfærdelig kombination. Alt for uhyggeligt til mig</p>
+                        <p>Hideo Kojima og Guillermo del Toro i en forfærdelig kombination. <strong>"P.T."</strong> er alt for uhyggeligt til mig</p>
+                    </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/BioShock.jpg" class="d-block w-100" alt="Spook">
@@ -268,7 +269,7 @@
                     <img src="images/Eiffel.jpg" class="d-block w-100" alt="Paris">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Templar" class="text-decoration-none text-white"><h5>Historiske tidsperioder</h5></a>
-                        <p>Assassin's Creed er spillet for historie nørderne. Notre Dame kirken, lave i tro kopi, og det er sågar muligt at klatre rundt på kirken.</p>
+                        <p>Assassin's Creed er spillet for historie nørderne. Notre Dame kirken, lavet i tro kopi, og det er sågar muligt at klatre rundt på kirken.</p>
                     </div>
                 </div>
             </div>
@@ -469,7 +470,8 @@
                         <div class="collapse multi-collapse" id="multiCollapseExampleKratos">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
-                                    <h4>Det er stort. Meget stort.<br> Udover hvor stor Midgårds Ormen så vandt God of War årets spil i 2018 for dets historie og over-the-top action brag mod "The Stranger"</h4>
+                                    <h4>Det er stort. Meget stort.<br> Udover hvor stor Midgårds Ormen er, <br>
+                                        så vandt God of War årets spil i 2018 for dets historie og over-the-top action brag mod "The Stranger"</h4>
                                     <div class="ratio ratio-16x9 videoContainer">
                                         <iframe width="560" height="315" src="https://www.youtube.com/embed/1rJBP0jz95M?start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
@@ -814,7 +816,7 @@
 </div>
 <br>
 
-<button type="button" class="btn btn-outline-danger bg-white opacity-75 btn-floating btn-lg" id="Topbtn">
+<button type="button" class="btn btn-outline-danger bg-white opacity-75 btn-floating btn-lg col-1" id="Topbtn">
     <i class="fas fa-arrow-up">Top</i>
 </button>
 
