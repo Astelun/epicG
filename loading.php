@@ -147,9 +147,7 @@
                     <img src="images/GoW.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Kratos" class="text-decoration-none text-white"><h5>Det bliver ikke større</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>"I God of War 3, slag Kratos alle de græske guder ihjel. Der var derfor ikke noget at sige til at da spil-serien fortsatte, måtte det ske i et nyt land."</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
@@ -157,7 +155,8 @@
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Joel" class="text-decoration-none text-white"><h5>Ubeskriveligt drama</h5></a>
                         <p>"The Last of Us" fra 2015, kan kun beskrives som et mesterværk. Historien er noget af det mest gribende man kan opleve, og starter hårdere ud en noget andet før har gjort.
-                            I 2020 fortsatte Ellie og Joel's historie med en "Part 2", og der blev ikke sparet på følelserne, i dette dramatiske spil, der perfekt sætter parrallel mellem verdens undergang, og indivedets tab af medmenneskelighed.</p>
+                            I 2020 fortsatte Ellie og Joel's historie med en "Part 2", og der blev ikke sparet på følelserne,
+                            i dette dramatiske spil, der perfekt sætter parrallel mellem verdens undergang, og indivedets tab af medmenneskelighed.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
@@ -173,9 +172,8 @@
                     <img src="images/Ghost%20of%20Tsushima_LAKESHINE.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Sushi" class="text-decoration-none text-white"><h5>Alt ser flot ud</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>"Det er muligvs det smukkeste spil nogensinde. De japanske skove og de mange templer giver øen Tsushima noget helt særlig. <br>
+                            Hvert øjeblik kan du stoppe op og bare nyde hvor vidunderlig og farverig verdenen er"</p>
                     </div>
                 </div>
 
@@ -183,35 +181,29 @@
                     <img src="images/bigBat.jpg" class="d-block w-100" alt="Bruce">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Diner" class="text-decoration-none text-white"><h5>Superhelt med fantastisk kinematografi</h5></a>
-                        <p>"The Elder Scrolls V: Skyrim", udkom d. 11 november, <strong>2011</strong>.
-                            Det årti, har kun været med til at cementere Skyrim som en tidsløs klassiker.
-                            Du er den udvalgte, der skal besejre dragen og redde verdenen. Klassisk fantasy, når det er allerbedst.</p>
+                        <p>Batman er jo ret sej, men når et studie gør sig så umage og fokuserer så kraftigt på at fortælle en historie, så hæver det niveauet markant.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/Mass%20Effect.jpg" class="d-block w-100" alt="Ild">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Buzz" class="text-decoration-none text-white"><h5>Mod det uendelige univers!</h5></a>
-                        <p>"The Last of Us" fra 2015, kan kun beskrives som et mesterværk. Historien er noget af det mest gribende man kan opleve, og starter hårdere ud en noget andet før har gjort.
-                            I 2020 fortsatte Ellie og Joel's historie med en "Part 2", og der blev ikke sparet på følelserne, i dette dramatiske spil, der perfekt sætter parrallel mellem verdens undergang, og indivedets tab af medmenneskelighed.</p>
+                        <p>Det er altid spændende at udforske det uendelige univers, og i denne udgave af <strong>"Mass Effect"</strong>, går turen til Andromeda galaxen.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/Journey.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Sand" class="text-decoration-none text-white"><h5>En uventet rejse</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>Journey er meditativt, positivt og formår at fortælle hele historien uden at sige et eneste ord</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/METAL%20GEAR%20SOLID%20V.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Boss" class="text-decoration-none text-white"><h5>De rigtige specialstyrker</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>Big Boss er den ultimative soldat. <br>I <strong>Metal Gear Solid V</strong>
+                            grundlægger Big Boss så sit eget private militær, og det kommer til at være dig der står i spidsen for det hele</p>
                     </div>
                 </div>
 
@@ -219,35 +211,27 @@
                     <img src="images/tresspaser.jpg" class="d-block w-100" alt="Bjerg">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Solas" class="text-decoration-none text-white"><h5>Glem alt om drager og dæmoner, dine venner er vigtigst</h5></a>
-                        <p>"The Elder Scrolls V: Skyrim", udkom d. 11 november, <strong>2011</strong>.
-                            Det årti, har kun været med til at cementere Skyrim som en tidsløs klassiker.
-                            Du er den udvalgte, der skal besejre dragen og redde verdenen. Klassisk fantasy, når det er allerbedst.</p>
+                        <p>Dragon Age samler den klassiske fantasy verden, med fokus på forhold og venskaber, som vi kender fra den virkelige verden.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/PT_door.jpg" class="d-block w-100" alt="Ild">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Pis" class="text-decoration-none text-white"><h5>Det absolut mest skræmmende jeg nogensinde har prøvet...</h5></a>
-                        <p>"The Last of Us" fra 2015, kan kun beskrives som et mesterværk. Historien er noget af det mest gribende man kan opleve, og starter hårdere ud en noget andet før har gjort.
-                            I 2020 fortsatte Ellie og Joel's historie med en "Part 2", og der blev ikke sparet på følelserne, i dette dramatiske spil, der perfekt sætter parrallel mellem verdens undergang, og indivedets tab af medmenneskelighed.</p>
-                    </div>
+                        <p>Hideo Kojima og Guillermo del Toro i en forfærdelig kombination. Alt for uhyggeligt til mig</p>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/BioShock.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Daddy" class="text-decoration-none text-white"><h5>Dyk ned i et mysterie</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>Du ankommer til fyrtårnet, og ender med at tage elevatoren hele vejen ned til havets bund, hvor mysteriet for alvor begynder</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/FINAL%20FANTASY%20VII.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Cloud" class="text-decoration-none text-white"><h5>Japans ultimative RPG</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>En lejesoldat for klima-terrorister, men der foregår vist en del mere end det.</p>
                     </div>
                 </div>
 
@@ -255,9 +239,7 @@
                     <img src="images/hesti.jpg" class="d-block w-100" alt="Arthur">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Cowboy" class="text-decoration-none text-white"><h5>Den ultimative omgang politi og røvere</h5></a>
-                        <p>"The Elder Scrolls V: Skyrim", udkom d. 11 november, <strong>2011</strong>.
-                            Det årti, har kun været med til at cementere Skyrim som en tidsløs klassiker.
-                            Du er den udvalgte, der skal besejre dragen og redde verdenen. Klassisk fantasy, når det er allerbedst.</p>
+                        <p>Cowboydere er ikke lige til at spøge med, særligt ikke Arthur Morgan og den bande du hører til</p>
                     </div>
                 </div>
 
@@ -265,35 +247,28 @@
                     <img src="images/Horizon%20Zero%20Dawn™_%20Complete%20Edition_20210522062958.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Robo" class="text-decoration-none text-white"><h5>Sci-fi + hulemennesker er en perfekt kombination</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>Robot-dinosauruser passer <i>Naturligvis</i> perfekt sammen med hulemennesker. <br>Det gør de i hvert fald, hvis man skal have noget god action</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/UnchartedM.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Charter" class="text-decoration-none text-white"><h5>Indiana Jones har mødt sin ligemand</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>Nathan Drake er sjov, charmerende og karismatisk. Alt imens at han er skattejæger på højeste plan. Videospillets Indiana Jones</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
                     <img src="images/Bloodborne.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Dead" class="text-decoration-none text-white"><h5>Du skal dø</h5></a>
-                        <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
-                            Gyserfilm er skæmmende, men når man selv bliver sat i styringen, er den ekstra dimension, kun med til at øge spændingen.
-                            Titlen siger det meste, målet er at overleve "Indtil daggry"</p>
+                        <p>Bloodborne, Darksoul, Sekiro og så videre. Studiet bag disse spil er mere end villige til at lade spilleren dø gentagende gange, men det får jo alt til at føles mere belønnende</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
-                    <img src="images/Eiffel.jpg" class="d-block w-100" alt="Ild">
+                    <img src="images/Eiffel.jpg" class="d-block w-100" alt="Paris">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Templar" class="text-decoration-none text-white"><h5>Historiske tidsperioder</h5></a>
-                        <p>"The Last of Us" fra 2015, kan kun beskrives som et mesterværk. Historien er noget af det mest gribende man kan opleve, og starter hårdere ud en noget andet før har gjort.
-                            I 2020 fortsatte Ellie og Joel's historie med en "Part 2", og der blev ikke sparet på følelserne, i dette dramatiske spil, der perfekt sætter parrallel mellem verdens undergang, og indivedets tab af medmenneskelighed.</p>
+                        <p>Assassin's Creed er spillet for historie nørderne. Notre Dame kirken, lave i tro kopi, og det er sågar muligt at klatre rundt på kirken.</p>
                     </div>
                 </div>
             </div>
@@ -323,11 +298,11 @@
                 </div>
                 <img src="images/The%20Last%20of%20Us™%20Part%20II_20200619192015.jpg" alt="Ridetur">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleJoel" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleJoel">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Ellie og Joel.<br> Det kan nok ikke helt beskrives. Det skal opleves</h4>
@@ -350,11 +325,11 @@
                 </div>
                 <img src="images/Rapture.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleRap" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleRap">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Det ser så realistisk ud.<br> Der er helt fantastisk grafik.</h4>
@@ -377,11 +352,11 @@
                 </div>
                 <img src="images/Joker.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleBat" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleBat">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Et godt callback til det første spil.<br> Arkham Knight mestrer storytelling på et meget højt plan.</h4>
@@ -404,11 +379,11 @@
                 </div>
                 <img src="images/Mass%20Effect.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleME" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleME">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Lækre visuals og fin action.<br> Mass Effect Andromeda har bestemt dets øjeblikke med imponerende grafik og stærke visuelle udtryk</h4>
@@ -432,11 +407,11 @@
                 </div>
                 <img src="images/Journey.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleJourney" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleJourney">
                             <div class="card card-body border-0">
                             <div class="col-10 col-lg-8 gy-4 mx-auto">
                                 <h4>Ingen ord, og intet mål.<br> Journey har ikke brug for nogen af delene for alligevel at fortælle en smuk historie og være det rene meditation.</h4>
@@ -459,11 +434,11 @@
                 </div>
                 <img src="images/Red%20Dead%20Redemption%202_20200301024817.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleRDR" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleRDR">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Ja, det er GTA med heste.<br> Dog fortæller spillet en meget spændende og dybere historie, end bare lige (<i>og så ser det pisse godt ud</i>)...</h4>
@@ -487,11 +462,11 @@
                 </div>
                 <img src="images/GoW.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleKratos" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleKratos">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Det er stort. Meget stort.<br> Udover hvor stor Midgårds Ormen så vandt God of War årets spil i 2018 for dets historie og over-the-top action brag mod "The Stranger"</h4>
@@ -514,11 +489,11 @@
                 </div>
                 <img src="images/Notre.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleAC" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleAC">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Der har jeg været!<br> Noget af det som Ubisoft's langtids kørende franchise er mest kendt for, er de mange steder man kan kravle rundt.</h4>
@@ -542,11 +517,11 @@
                 </div>
                 <img src="images/Horizon%20Zero%20Dawn™_%20Complete%20Edition_20210520193235.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleRobo" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleRobo">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Robot-dinosaurus + hulemennesker<br> En sindsyg blanding, som bare virker perfekt.</h4>
@@ -569,11 +544,11 @@
                 </div>
                 <img src="images/UnchartedM.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleDrake" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleDrake">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Fantastiske eventyr!<br> Indiana Jones + Tomb Raider = Uncharted.</h4>
@@ -597,11 +572,11 @@
                 </div>
                 <img src="images/METAL%20GEAR%20SOLID%20V.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleMGS" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleMGS">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Kojima når han er bedst<br> Ser fantastisk ud, og Kojima er en legendarisk instruktør.</h4>
@@ -624,11 +599,11 @@
                 </div>
                 <img src="images/tresspaser.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleSol" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleSol">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>En cliffhanger...<br> 7 år siden, og jeg vil virkelig gerne stadig til Tevinter og stoppe Fen'harel.</h4>
@@ -652,11 +627,11 @@
                 </div>
                 <img src="images/PT_door.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExamplePis" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExamplePis">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Så er det tis-i-bukserne-tid<br> P.T. var et genialt markedsførings trick. Det var en reklame for et spil, som var et spil i sig selv. <br>
@@ -681,11 +656,11 @@
                 </div>
                 <img src="images/FINAL%20FANTASY%20VII.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleFF" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleFF">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Japan's heavy hitter<br> De fleste har set den kæmpe store sværd på Clouds ryg. Så stort at han jo teknisk set umuligt ville kunne løfte det.</h4>
@@ -708,11 +683,11 @@
                 </div>
                 <img src="images/BioShock.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleBio" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleBio">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Dyk ned i et hjerne-smeltende mysterie<br> Der findes kanaler på YouTube der udelukkende er dedikeret til at snakke om BioShock, det må være tegn på at det er et cult fænomen</h4>
@@ -735,11 +710,11 @@
                 </div>
                 <img src="images/Bloodborne.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleDed" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleDed">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Død, død og død.<br> Det ser smukt ud, men man dør godt nok meget. Denne trailer er fra det første spil i "serien"</h4>
@@ -762,11 +737,11 @@
                 </div>
                 <img src="images/Ghost%20of%20Tsushima_20200720191346.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleJin" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleJin">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Jin Sakai i duel med Lady Masako. <br>Bladene der falder og ilden der langsomt spreder sig. Alt oplyst af solnedgangen</h4>
@@ -789,11 +764,11 @@
                 </div>
                 <img src="images/Skyrim_20210707155821.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleSky" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleSky">
                             <div class="col-10 col-lg-8 gy-4 mx-auto">
                                 <h4>Fus Ro Dah!<br> Det er 10 år siden, men JA det er stadig fedt at rende rundt i Skyrim</h4>
                                 <div class="ratio ratio-16x9 videoContainer">
@@ -815,11 +790,11 @@
                 </div>
                 <img src="images/Until%20Dawn™_20180805182431.jpg">
                 <p>
-                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
+                    <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleGys" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
                 <div class="row">
                     <div class="col">
-                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="collapse multi-collapse" id="multiCollapseExampleGys">
                             <div class="card card-body border-0">
                                 <div class="col-10 col-lg-8 gy-4 mx-auto">
                                     <h4>Det er en gyserfilm<br> Det er fantastisk at fleste har set den kæmpe store sværd på Clouds ryg. Så stort at han jo teknisk set umuligt ville kunne løfte det.</h4>

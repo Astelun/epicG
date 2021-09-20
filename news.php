@@ -27,7 +27,7 @@
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
 </head>
 <style>
 
@@ -53,28 +53,13 @@
                 <li><hr class="dropdown-divider"></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Liste
+                        Kategorier
                     </a>
-                    <ul class="dropdown-menu overflow-auto" style="height: 50vh" aria-labelledby="navbarDropdown">
-                        <li><a href="#Templar" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Assassin's Creed</a></li>
-                        <li><a href="#Diner" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Batman</a></li>
-                        <li><a href="#Daddy" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">BioShock</a></li>
-                        <li><a href="#Dead" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Bloodborne</a></li>
-                        <li><a href="#Solas" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Dragon Age</a></li>
-                        <li><a href="#Dragon" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Elder Scrolls</a></li>
-                        <li><a href="#Village" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Everybody's Gone to the Rapture</a></li>
-                        <li><a href="#Cloud" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Final Fantasy</a></li>
-                        <li><a href="#Sushi" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Ghost of Tsushima</a></li>
-                        <li><a href="#Kratos" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">God of War</a></li>
-                        <li><a href="#Robo" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Horizon</a></li>
-                        <li><a href="#Sand" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Journey</a></li>
-                        <li><a href="#Buzz" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Mass Effect</a></li>
-                        <li><a href="#Boss" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Metal Gear</a></li>
-                        <li><a href="#Pis" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">P.T.</a></li>
-                        <li><a href="#Cowboy" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Red Dead Redemption</a></li>
-                        <li><a href="#Joel" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">The Last of Us</a></li>
-                        <li><a href="#Charter" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Uncharted</a></li>
-                        <li><a href="#Elg" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Until Dawn</a></li>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a href="#Stor" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Det bliver stort</a></li>
+                        <li><a href="#Vent" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Ventetid</a></li>
+                        <li><a href="#Hero" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Helte</a></li>
+                        <li><a href="#Spænd" class="btn-primary my-1 p-2 text-center text-decoration-none rounded d-flex justify-content-center">Playstation</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -91,7 +76,7 @@
 
 <div class="container-fluid">
     <div class="row justify-content-around mb-5">
-        <div class="col-12 bg-danger text-center p-5 text-white">
+        <div class="col-12 bg-danger text-center p-5 text-white" id="Stor">
             <h2>Det bliver stort</h2>
         </div>
         <div class="col-12 col-lg-5 gy-4">
@@ -109,34 +94,26 @@
     </div>
 
     <div class="row justify-content-around">
-        <div class="col-12 bg-info text-center p-5 text-white mt-5">
+        <div class="col-12 bg-info text-center p-5 text-white mt-5" id="Vent">
             <h2>Lang ventetid, store forventinger</h2>
         </div>
         <div class="col-12 col-lg-5 gy-4">
             <div class="ratio ratio-16x9 videoContainer">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/OkFdqqyI8y4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h5 class="bg-light p-3"><strong>Længe ventet er absolut inten underdrivelse.</strong><br>Det er i år 10 år siden Elder Scrolls 5 udkom til PS3.
-                Selv denne <i>"beskedne"</i> trailer er fra 2018.<br><br>
-                I løbet af den tid, er det lykkedes studiet bag spillet, (<strong><i>Bethesda</i></strong>) at blive opkøbt af Microsoft for en fornuftig pris på <br><strong>7.5 milliarder</strong><i>... dollars</i>.<br>
-                <br>Jeg venter stadig helt sidsygt spændt, på efterfølgeren til det jeg nok godt tør kalde mit yndligsspil (nogensinde).</h5>
+            <h5 class="bg-light p-3"><strong>Elder Scrolls VI</strong></h5>
         </div>
         <div class="col-12 col-lg-5 gy-4">
             <div class="ratio ratio-16x9 videoContainer">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/VxqBle_O6jI?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h5 class="bg-light p-3"><strong>Turmult bag kuliserne.</strong><br>Der har været instruktør skifte, fyringer og hyringer,
-                chef opsigelser og meget meget andet der har fået produktionen af Dragon Age-seriens 4. udgivelse til at være en langtrukken affære.
-                <br>
-                Forgængerne startede med <strong>Dragon Age: Origins</strong> i 2009, og senest udkom <strong>Dragon Age: Inquisition</strong> i 2014. På 5 år fik studiet <strong><i>Bioware</i></strong> altså udgivet 3 Dragon Age spil, men siden da,
-                er der gået 7 år, og eftersom at jeg for nyligt spillede Inquisition igennem igen, er jeg helt utrolig spændt på at se hvor historie, (<i>som sidst sluttede på en cliffhanger</i>) fører hen i seriens 4. spil.
-                <br
+            <h5 class="bg-light p-3"><strong>Dragon Age 4</strong></h5>
         </div>
     </div>
 <br>
 
     <div class="row justify-content-around mt-5">
-        <div class="col-12 bg-success text-center p-5 text-white mt-5">
+        <div class="col-12 bg-success text-center p-5 text-white mt-5" id="Hero">
             <h2>Så kommer superheltene på banen</h2>
         </div>
         <div class="col-12 col-lg-5 gy-4">
@@ -170,14 +147,14 @@
             <div class="ratio ratio-16x9 videoContainer">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ripgh8W2PMg?start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h5 class="bg-light p-3"><strong>Lidt Marvel'eri</strong></h5>
+            <h5 class="bg-light p-3"><strong>Midnight Suns</strong></h5>
             <br>
         </div>
         <div class="col-12 col-lg-5 gy-4">
             <div class="ratio ratio-16x9 videoContainer">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZHnDLbiQ1NU?start=38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h5 class="bg-light p-3"><strong>Ikke Batman</strong></h5>
+            <h5 class="bg-light p-3"><strong>Gotham Knights</strong></h5>
             <br>
         </div>
     </div>
@@ -187,54 +164,14 @@
 
 
     <div class="row justify-content-around mb-5">
-        <div class="col-12 bg-primary text-center p-5 text-white">
-            <h2>Det ser spændende ud</h2>
+        <div class="col-12 bg-primary text-center p-5 text-white" id="Spænd">
+            <h2>Playstation</h2>
         </div>
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qPNiIeKMHyg?start=124" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IfrfJn_-24g?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VxqBle_O6jI?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-
-
-        <div class="col-12 col-lg-6 gy-4">
+        <div class="col-12 col-lg-8 gy-4">
             <div class="ratio ratio-16x9 videoContainer">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Z-EcrQjJQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/nOMIwsupy9k?start=370" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <h3>Abe</h3>
-        </div>
-
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/EE-4GvjKcfs?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qPNiIeKMHyg?start=124" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="col-12 col-lg-6 gy-4">
-            <div class="ratio ratio-16x9 videoContainer">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IfrfJn_-24g?start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
     </div>
 </div>
 
