@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
-                    <img src="images/The%20Last%20of%20Us™%20Part%20II_20200620013315.jpg" class="d-block w-100" alt="Ild">
+                    <img src="images/The%20Last%20of%20Us%20Part%20II_20200620013315.jpg" class="d-block w-100" alt="Ild">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Joel" class="text-decoration-none text-white"><h5>Ubeskriveligt drama</h5></a>
                         <p>"The Last of Us" fra 2015, kan kun beskrives som et mesterværk. Historien er noget af det mest gribende man kan opleve, og starter hårdere ud en noget andet før har gjort.
@@ -160,7 +160,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="15000">
-                    <img src="images/Until%20Dawn™_20180805182431.jpg" class="d-block w-100" alt="Spook">
+                    <img src="images/Until%20Dawn_20180805182431.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Elg" class="text-decoration-none text-white"><h5>En gyserfilm DU styrer</h5></a>
                         <p>"Until Dawn" udkom i 2015, og tog Teen Horror-genren til helt nye højder. Du styrer 8 teenagere, der er fanget midt i en snestorm.
@@ -245,7 +245,7 @@
                 </div>
 
                 <div class="carousel-item" data-bs-interval="15000">
-                    <img src="images/Horizon%20Zero%20Dawn™_%20Complete%20Edition_20210522062958.jpg" class="d-block w-100" alt="Spook">
+                    <img src="images/Horizon%20Zero%20Dawn_%20Complete%20Edition_20210522062958.jpg" class="d-block w-100" alt="Spook">
                     <div class="carousel-caption d-none d-md-block bg-opacity-25 bg-dark rounded px-2">
                         <a href="#Robo" class="text-decoration-none text-white"><h5>Sci-fi + hulemennesker er en perfekt kombination</h5></a>
                         <p>Robot-dinosauruser passer <i>Naturligvis</i> perfekt sammen med hulemennesker. <br>Det gør de i hvert fald, hvis man skal have noget god action</p>
@@ -297,7 +297,7 @@
                     <h2 class="card-title">The Last of Us</h2>
                     <h5 class="card-subtitle">2015, 2020</h5>
                 </div>
-                <img src="images/The%20Last%20of%20Us™%20Part%20II_20200619192015.jpg" alt="Ridetur">
+                <img src="images/The%20Last%20of%20Us%20Part%20II_20200619192015.jpg" alt="Ridetur">
                 <p>
                     <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleJoel" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
@@ -517,7 +517,7 @@
                     <h2 class="card-title">Horizon: Zero Dawn</h2>
                     <h5 class="card-subtitle">2017</h5>
                 </div>
-                <img src="images/Horizon%20Zero%20Dawn™_%20Complete%20Edition_20210520193235.jpg">
+                <img src="images/Horizon%20Zero%20Dawn_%20Complete%20Edition_20210520193235.jpg">
                 <p>
                     <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleRobo" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
@@ -790,7 +790,7 @@
                     <h2 class="card-title">Until Dawn</h2>
                     <h5 class="card-subtitle">2015</h5>
                 </div>
-                <img src="images/Until%20Dawn™_20180805182431.jpg">
+                <img src="images/Until%20Dawn_20180805182431.jpg">
                 <p>
                     <a class="btn btn-outline-danger" data-bs-toggle="collapse" href="#multiCollapseExampleGys" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Se mere</a>
                 </p>
